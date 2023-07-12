@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <script src="orders.js" defer></script>
+    <script src="index.js" defer></script>
+    <title>Responsive Dashboard</title>
 </head>
+
 <body>
+
     <div class="container">
         <aside>
             <div class="toggle">
                 <div class="logo">
-                    <img src="./images/logo.png" alt="logo">
-                    <h2 class="danger">Dashboard</h2>
+                    <img src="images/logo.png">
+                    <h2><span class="danger">Dashboard</span></h2>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-sharp">
@@ -88,16 +91,17 @@
                 </a>
             </div>
         </aside>
+
         <main>
             <h1>Analytics</h1>
-            <section class="analyse">
+            <div class="analyse">
                 <div class="sales">
                     <div class="status">
                         <div class="info">
                             <h3>Total Sales</h3>
                             <h1>$65,024</h1>
                         </div>
-                        <div class="progress">
+                        <div class="progresss">
                             <svg>
                                 <circle cx="38" cy="38" r="36"></circle>
                             </svg>
@@ -113,7 +117,7 @@
                             <h3>Site Visit</h3>
                             <h1>24,981</h1>
                         </div>
-                        <div class="progress">
+                        <div class="progresss">
                             <svg>
                                 <circle cx="38" cy="38" r="36"></circle>
                             </svg>
@@ -129,7 +133,7 @@
                             <h3>Searches</h3>
                             <h1>14,147</h1>
                         </div>
-                        <div class="progress">
+                        <div class="progresss">
                             <svg>
                                 <circle cx="38" cy="38" r="36"></circle>
                             </svg>
@@ -139,33 +143,34 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="new-users">
+            </div>
+            <div class="new-users">
                 <h2>New Users</h2>
                 <div class="user-list">
                     <div class="user">
-                        <img src="./images/profile-2.jpg" alt="profile number 2">
-                        <h2>Sophia</h2>
-                        <p>3 Hours Ago</p>
-                    </div>
-                    <div class="user">
-                        <img src="./images/profile-3.jpg">
+                        <img src="images/profile-2.jpg">
                         <h2>Emma</h2>
+                        <p>54 Min Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/profile-3.jpg">
+                        <h2>Jane</h2>
                         <p>3 Hours Ago</p>
                     </div>
                     <div class="user">
-                        <img src="./images/profile-4.jpg">
+                        <img src="images/profile-4.jpg">
                         <h2>Ember</h2>
                         <p>6 Hours Ago</p>
                     </div>
                     <div class="user">
-                        <img src="./images/plus.png">
+                        <img src="images/plus.png">
                         <h2>More</h2>
                         <p>New User</p>
                     </div>
                 </div>
-            </section>
-            <section class="recent-orders">
+            </div>
+
+            <div class="recent-orders">
                 <h2>Recent Orders</h2>
                 <table>
                     <thead>
@@ -180,9 +185,11 @@
                     <tbody></tbody>
                 </table>
                 <a href="#">Show All</a>
-            </section>
+            </div>
+
         </main>
-        <section class="right-section">
+
+        <div class="right-section">
             <div class="nav">
                 <button id="menu-btn">
                     <span class="material-icons-sharp">
@@ -200,13 +207,14 @@
 
                 <div class="profile">
                     <div class="info">
-                        <p>Hey, <b>User</b></p>
+                        <p>Hey, <b>John</b></p>
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="./images/profile-1.jpg" alt="User logo">
+                        <img src="images/profile-1.jpg">
                     </div>
                 </div>
+
             </div>
 
             <div class="user-profile">
@@ -221,9 +229,10 @@
                 <div class="header">
                     <h2>Reminders</h2>
                     <span class="material-icons-sharp">
-                        notifications-none
+                        notifications_none
                     </span>
                 </div>
+
                 <div class="notification">
                     <div class="icon">
                         <span class="material-icons-sharp">
@@ -242,8 +251,8 @@
                         </span>
                     </div>
                 </div>
-            </div>
-            <div class="notification deactive">
+
+                <div class="notification deactive">
                     <div class="icon">
                         <span class="material-icons-sharp">
                             edit
@@ -270,7 +279,15 @@
                         <h3>Add Reminder</h3>
                     </div>
                 </div>
-        </section>
+
+            </div>
+
+        </div>
+
+
     </div>
+
+
 </body>
+
 </html>
