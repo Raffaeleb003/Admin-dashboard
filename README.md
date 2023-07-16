@@ -1,12 +1,12 @@
 # Project README
+## Live Version
+A live version of this project is available at: [https://raffaeleb003.github.io/Admin-dashboard/](https://raffaeleb003.github.io/Admin-dashboard/)
 
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Features](#features)
 - [Usage](#usage)
 - [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 To get started with this project, follow the instructions below:
