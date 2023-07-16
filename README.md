@@ -27,18 +27,3 @@ The dashboard provides the following features:
 ## Usage
 Once you have opened the `index.html` file in a web browser, you can navigate through the dashboard using the sidebar menu. Click on different sections to explore their content.
 The dashboard provides information on analytics, user data, recent orders, and reminders. You can interact with different elements such as buttons and links to access additional details or perform actions.
-
-## Customization
-If you want to customize the dashboard, you can modify the HTML, CSS, and JavaScript files according to your requirements. Here are some possible customization options:
-- Update the content of the sidebar by modifying the HTML structure and adding/removing links.
-- Modify the styles in the CSS file to change the appearance of various elements.
-- Customize the analytics data, user information, recent orders, and reminders by editing the JavaScript code in the JavaScript files.
-
-Feel free to experiment and make changes to adapt the dashboard to your specific needs.
-
-## Contributing
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please create a pull request or open an issue in the repository.
-When contributing, please follow the existing code style and ensure that any changes align with the project's overall structure and functionality.
-
-## License
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as permitted by the license.
